@@ -2,7 +2,7 @@
 import Layout from '../../components/layout'
 import Link from'next/link'
 import utilStyles from '../../styles/utils.module.css'
-import TodoList from "./TodoList";
+// import TodoList from "./TodoList";
 import * as React from 'react';
 import ReactDOM from 'react-dom';
 import Button from '@mui/material/Button';
@@ -14,7 +14,6 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import AddTask from "./AddTask";
 import Divider from '@mui/material/Divider';
 import NavTabs from './NavTabs'
 
@@ -37,17 +36,13 @@ export default function FirstPost() {
             <section className={utilStyles.headingLg} >
                 <p>Task 1</p>
             
-                <div>
-                    <TodoList/>
-                </div>
+ 
             </section>
 
             <section className={utilStyles.headingLg} >
                 <p>Task 2</p>
             
-            <div>
-                <TodoList/>
-            </div>
+
             </section>
             
             <TableContainer component={Paper}>

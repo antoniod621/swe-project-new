@@ -1,6 +1,17 @@
 {
   "/_app": "pages/_app.js",
+  "/apis/GoogleDrive": "pages/apis/GoogleDrive.html",
+  "/": "pages/index.js",
+  "/posts/Chassis": "pages/posts/Chassis.html",
+  "/posts/Drive": "pages/posts/Drive.html",
+  "/posts/Electrical": "pages/posts/Electrical.html",
+  "/posts/Engine": "pages/posts/Engine.html",
+  "/posts/NavTabs": "pages/posts/NavTabs.html",
+  "/posts/Other": "pages/posts/Other.html",
+  "/posts/Suspension": "pages/posts/Suspension.html",
+  "/posts/addinventory": "pages/posts/addinventory.html",
+  "/posts/inventory": "pages/posts/inventory.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }

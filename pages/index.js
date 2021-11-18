@@ -76,7 +76,7 @@ export default function Home() {
     )
 }
 
-export async function getServerSideProps(ctx) {
+export async function getStaticProps(ctx) {
 
     return {
         props: {
