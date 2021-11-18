@@ -227,6 +227,7 @@ function inventory({ posts  }) {
                         /*#__PURE__*/ jsx_runtime_.jsx("p", {
                             children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                 href: "/posts/addinventory",
+                                passHref: true,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((Button_default()), {
                                     variant: "outlined",
                                     startIcon: /*#__PURE__*/ jsx_runtime_.jsx((Avatar_default()), {

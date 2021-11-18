@@ -1,5 +1,6 @@
 import React from 'react';
 import { useGoogleLogin } from 'react-google-login';
+import Image from 'next/dist/client/image';
 
 // refresh token
 
@@ -35,7 +36,7 @@ function LoginHooks() {
 
     return (
         <button onClick={signIn} className="button">
-            <img src="icons/google.svg" alt="google login" className="icon"></img>
+            <Image src="icons/google.svg" alt="google login" className="icon"></Image>
 
             <span className="buttonText">Sign in with Google</span>
         </button>

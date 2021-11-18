@@ -24,7 +24,7 @@ export default function inventory( { posts } ){
                     }}>
                     <center>
                     <p>
-                        <Link href="/posts/addinventory"><Button variant="outlined" startIcon={<Avatar src={'https://cdn1.iconfinder.com/data/icons/logistic-and-shipping-outline/32/logistic-product-parcel-increase-cargo-add-inventory-1024.png'} />}>
+                        <Link href="/posts/addinventory" passHref={true}><Button variant="outlined" startIcon={<Avatar src={'https://cdn1.iconfinder.com/data/icons/logistic-and-shipping-outline/32/logistic-product-parcel-increase-cargo-add-inventory-1024.png'} />}>
                             Add Item to Inventory</Button></Link>
                     </p>
                     <main>

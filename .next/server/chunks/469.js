@@ -92,9 +92,11 @@ function Layout({ children , home  }) {
                             width: 144,
                             alt: name
                         }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                            className: (_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5___default().headingLg),
-                            children: name
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("center", {
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
+                                className: (_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5___default().headingLg),
+                                children: name
+                            })
                         })
                     ]
                 }) : /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
@@ -112,13 +114,15 @@ function Layout({ children , home  }) {
                                 })
                             })
                         }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                            className: (_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5___default().headingLg),
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
-                                href: "/",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                    className: (_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5___default().colorInherit),
-                                    children: name
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("center", {
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                                className: (_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5___default().headingLg),
+                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
+                                    href: "/",
+                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                        className: (_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5___default().colorInherit),
+                                        children: name
+                                    })
                                 })
                             })
                         })

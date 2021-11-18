@@ -16,7 +16,7 @@ import Head from "next/dist/shared/lib/head";
 
 // import styles from '../styles/Home.module.css';
 
-export default function addinventory() {
+export default function Addinventory() {
     const [part, setPart] = useState('');
     const [category, setCategory] = useState('');
     const [manufacturer, setManufacturer] = useState('');
@@ -112,7 +112,7 @@ export default function addinventory() {
 
                     <div className={styles.formItem}>
                         <button type="submit">Add part</button>{' '}
-                        <Link href="/inventory">
+                        <Link href="/posts/inventory" passHref={true}>
                             <button>Back to Inventory Page</button>
                         </Link>
                     </div>

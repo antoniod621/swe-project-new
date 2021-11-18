@@ -94,7 +94,10 @@ function Login() {
 }
 /* harmony default export */ const login = ((/* unused pure expression or super */ null && (Login)));
 
+// EXTERNAL MODULE: ./node_modules/next/dist/client/image.js
+var client_image = __webpack_require__(8045);
 ;// CONCATENATED MODULE: ./components/loginhooks.js
+
 
 
 
@@ -120,7 +123,7 @@ function LoginHooks() {
         onClick: signIn,
         className: "button",
         children: [
-            /*#__PURE__*/ _jsx("img", {
+            /*#__PURE__*/ _jsx(Image, {
                 src: "icons/google.svg",
                 alt: "google login",
                 className: "icon"
@@ -178,6 +181,86 @@ const responseGoogle = (response)=>{
 };
 function Home() {
     return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)(layout/* default */.Z, {
+        // import Head from 'next/head'
+        // import Layout from '../../components/layout'
+        // import Link from'next/link'
+        // import utilStyles from '../../styles/utils.module.css'
+        // // import TodoList from "./TodoList";
+        // import * as React from 'react';
+        // import ReactDOM from 'react-dom';
+        // import Button from '@mui/material/Button';
+        // import Avatar from "@material-ui/core/Avatar";
+        // import Table from '@mui/material/Table';
+        // import TableBody from '@mui/material/TableBody';
+        // import TableCell from '@mui/material/TableCell';
+        // import TableContainer from '@mui/material/TableContainer';
+        // import TableHead from '@mui/material/TableHead';
+        // import TableRow from '@mui/material/TableRow';
+        // import Paper from '@mui/material/Paper';
+        // import Divider from '@mui/material/Divider';
+        // import NavTabs from '../../components/NavTabs'
+        // export default function FirstPost() {
+        //     return (
+        //         <Layout >
+        //         <NavTabs/>
+        //         <p>
+        //             <p >
+        //                     <Link href="https://drive.google.com/drive/u/1/folders/1OSejEwKqpNdBaIxANchhyF-IhTPNvw-s" to="route" target="_blank" rel="noopener noreferrer" ><Button variant="outlined" startIcon={<Avatar src={'https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg'} />}>
+        //                     Google Drive</Button></Link>
+        //             </p>
+        //             <p >
+        //                     <Link href="https://vanderbiltmotorsports.slack.com/archives/C02KAUJKXTM" to="route" target="_blank" rel="noopener noreferrer" ><Button variant="outlined" startIcon={<Avatar src={'https://cdn.mos.cms.futurecdn.net/SDDw7CnuoUGax6x9mTo7dd.jpg'} />}>
+        //                     Slack</Button></Link>
+        //             </p>   
+        //             <section className={utilStyles.headingLg} >
+        //                 <p>Task 1</p>
+        //             </section>
+        //             <section className={utilStyles.headingLg} >
+        //                 <p>Task 2</p>
+        //             </section>
+        //             <TableContainer component={Paper}>
+        //       <Table sx={{ minWidth: 650 }} aria-label="simple table">
+        //         <TableHead>
+        //           <TableRow>
+        //             <TableCell>Part</TableCell>
+        //             <TableCell align="right">Category</TableCell>
+        //             <TableCell align="right">Manufacturer</TableCell>
+        //             <TableCell align="right">Qty</TableCell>
+        //             <TableCell align="right">Location</TableCell>
+        //           </TableRow>
+        //         </TableHead>
+        //         <TableBody>
+        //           {rows.map((row) => (
+        //             <TableRow
+        //               key={row.name}
+        //               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+        //             >
+        //               <TableCell component="th" scope="row">
+        //                 {row.name}
+        //               </TableCell>
+        //               <TableCell align="right">{row.calories}</TableCell>
+        //               <TableCell align="right">{row.fat}</TableCell>
+        //               <TableCell align="right">{row.carbs}</TableCell>
+        //               <TableCell align="right">{row.protein}</TableCell>
+        //             </TableRow>
+        //           ))}
+        //         </TableBody>
+        //       </Table>
+        //     </TableContainer>
+        //         </p>
+        //         </Layout>
+        //     )
+        // }
+        // function createData(name, calories, fat, carbs, protein) {
+        //   return { name, calories, fat, carbs, protein };
+        // }
+        //   const rows = [
+        //     createData('Size 12 hose clamps','Engine','Aircraft Spruce',3,'Radiator in/out'),
+        //     createData('Radiator','Engine','?',1,'Rear right side'),
+        //     createData('Oil tank','Engine','',1,'Center right behind firewall'),
+        //     createData('Gas tank','Engine','Manually machined',1,'Left side right behind firewall'),
+        //     createData('32 oz plastic water bottle','Engine','Nalgene',1,"Behind radiator, right rear side"),
+        //   ];
         home: true,
         children: [
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
@@ -190,7 +273,7 @@ function Home() {
                         content: "32462246798-aeohvbah1muk1jpm9do88ps1hl7rlnif.apps.googleusercontent.com"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        class: "g-signin2",
+                        className: "g-signin2",
                         "data-onsuccess": "onSignIn"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("script", {
@@ -214,6 +297,7 @@ function Home() {
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                             href: "/posts/Engine",
+                            passHref: true,
                             children: /*#__PURE__*/ jsx_runtime_.jsx((Button_default()), {
                                 style: {
                                     fontSize: 25
@@ -233,6 +317,7 @@ function Home() {
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                             href: "/posts/Chassis",
+                            passHref: true,
                             children: /*#__PURE__*/ jsx_runtime_.jsx((Button_default()), {
                                 style: {
                                     fontSize: 25
@@ -252,6 +337,7 @@ function Home() {
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                             href: "/posts/Drive",
+                            passHref: true,
                             children: /*#__PURE__*/ jsx_runtime_.jsx((Button_default()), {
                                 style: {
                                     fontSize: 25
@@ -271,6 +357,7 @@ function Home() {
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                             href: "/posts/Electrical",
+                            passHref: true,
                             children: /*#__PURE__*/ jsx_runtime_.jsx((Button_default()), {
                                 style: {
                                     fontSize: 25
@@ -290,6 +377,7 @@ function Home() {
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                             href: "/posts/Suspension",
+                            passHref: true,
                             children: /*#__PURE__*/ jsx_runtime_.jsx((Button_default()), {
                                 style: {
                                     fontSize: 25
@@ -303,24 +391,9 @@ function Home() {
                         })
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        style: {
-                            textAlign: 'center',
-                            padding: "15px"
-                        },
-                        children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                            href: "/posts/Other",
-                            children: /*#__PURE__*/ jsx_runtime_.jsx((Button_default()), {
-                                style: {
-                                    fontSize: 25
-                                },
-                                variant: "outlined",
-                                children: "Other"
-                            })
-                        })
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
                         children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                             href: "/posts/inventory",
+                            passHref: true,
                             children: /*#__PURE__*/ jsx_runtime_.jsx((Button_default()), {
                                 variant: "outlined",
                                 startIcon: /*#__PURE__*/ jsx_runtime_.jsx((Avatar_default()), {
