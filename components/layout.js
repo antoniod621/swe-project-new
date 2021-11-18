@@ -3,8 +3,7 @@ import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
-import { CenterFocusStrong } from '@mui/icons-material'
-import NavTabs from '../pages/posts/NavTabs'
+
 
 const name = 'Vanderbilt Motorsports Hub'
 export const siteTitle = 'Vanderbilt Motorsports Hub'

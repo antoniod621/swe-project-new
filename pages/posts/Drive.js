@@ -16,7 +16,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import AddTask from '../../components/AddTask';
 import Divider from '@mui/material/Divider';
-import NavTabs from './NavTabs'
+import NavTabs from '../../components/NavTabs'
 
 
 export default function FirstPost() {

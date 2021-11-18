@@ -22,6 +22,7 @@ function LinkTab(props) {
     };
   
     return (
+      <center>
       <Box sx={{ width: '100%' }} style={{paddingLeft: '5%'
     }}>
         <Tabs onChange={handleChange} aria-label="nav tabs example">
@@ -32,5 +33,6 @@ function LinkTab(props) {
           <LinkTab label="Suspension" href="/posts/Suspension" />
         </Tabs>
       </Box>
+      </center>
     );
   }
