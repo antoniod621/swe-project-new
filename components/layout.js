@@ -3,6 +3,8 @@ import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import { CenterFocusStrong } from '@mui/icons-material'
+import NavTabs from '../pages/posts/NavTabs'
 
 const name = 'Vanderbilt Motorsports Hub'
 export const siteTitle = 'Vanderbilt Motorsports Hub'
@@ -28,7 +30,9 @@ export default function Layout({ children, home }) {
                             width={144}
                             alt={name}
                         />
+                        <center>
                         <h1 className={utilStyles.headingLg}>{name}</h1>
+                        </center>
                     </>
                 ) : (
                         <>
@@ -44,11 +48,13 @@ export default function Layout({ children, home }) {
                                     />
                                 </a>
                             </Link>
+                            <center>
                             <h2 className={utilStyles.headingLg}>
                                 <Link href="/">
                                     <a className={utilStyles.colorInherit}>{name}</a>
                                 </Link>
                             </h2>
+                            </center>
                         </>
                     )}
             </header>
