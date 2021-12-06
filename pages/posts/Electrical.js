@@ -54,9 +54,7 @@ export default function FirstPost() {
                     <Button style={{ fontSize: 20 }} variant="outlined" startIcon={<Avatar src={'https://cdn.mos.cms.futurecdn.net/SDDw7CnuoUGax6x9mTo7dd.jpg'} />}>
                     Slack</Button></div>
                     </p>
-                    <div>
-                        <iframe width = "100%" height = "400px "src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQgYrh4Bt-c8SNxlDL_oTEBklIxXSf8caE_aVSAfoTXB7Krxiwmd9TUyyLtJESOVaoW_jcuIa5nq5UI/pubhtml?gid=2036387088&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-                    </div>
+
             
             <h1 style={{padding: '10px'
                 }}>Task List</h1>
@@ -74,7 +72,10 @@ export default function FirstPost() {
                 }}/>
                 
                 <h1 style={{padding: '10px'
-                }}>Inventory</h1>
+                    }}>Inventory</h1>
+                    <div>
+                        <iframe width="100%" height="400px " src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQgYrh4Bt-c8SNxlDL_oTEBklIxXSf8caE_aVSAfoTXB7Krxiwmd9TUyyLtJESOVaoW_jcuIa5nq5UI/pubhtml?gid=2121082736&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+                    </div>
            
             
             
