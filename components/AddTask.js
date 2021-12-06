@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import TodoItems from "./TodoItems";
 import TodoList from "./TodoList";
-import utilStyles from '../styles/utils.module.css'
+import utilStyles from '../../styles/utils.module.css'
 import AddTaskItems from "./AddTaskItems";
 
 
