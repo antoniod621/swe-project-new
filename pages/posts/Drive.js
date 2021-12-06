@@ -35,23 +35,17 @@ export default function FirstPost() {
                     <Link href="https://vanderbiltmotorsports.slack.com/archives/C02KAUJKXTM" to="route" target="_blank" rel="noopener noreferrer" ><Button variant="outlined" startIcon={<Avatar src={'https://cdn.mos.cms.futurecdn.net/SDDw7CnuoUGax6x9mTo7dd.jpg'} />}>
                     Slack</Button></Link>
             </p>  
-            */} 
+              */}
             <h1 style={{color: "#b7ac74"
                 }}>Drive Page</h1>
 
-            <p style={{padding: '10px'
-                }}>
-                    <div style={{padding: '10px', textAlign: 'center'
-                }} onClick={()=> window.open("https://drive.google.com/drive/u/1/folders/1tWqrQ7h-iHBQseytngHeW3xV2WQ4_vGf", "_blank")} >
-                  <Button style={{ fontSize: 20 }} variant="outlined" startIcon={<Avatar src={'https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg'} />}>
-                    Google Drive</Button></div>
-            </p>
-            
-            <p style={{padding: '10px'
-                }}>
-                    <div style={{padding: '10px', textAlign: 'center'}} 
-                    onClick={()=> window.open("https://vanderbiltmotorsports.slack.com/archives/C02KAUJKXTM", "_blank")} >
-                    <Button style={{ fontSize: 20 }} variant="outlined" startIcon={<Avatar src={'https://cdn.mos.cms.futurecdn.net/SDDw7CnuoUGax6x9mTo7dd.jpg'} />}>
+            <p>
+                    <div style={{textAlign: 'center'}} >
+                    <Button style={{ fontSize: 20 }} variant="outlined" startIcon={<Avatar src={'https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg'} 
+                    />}onClick={()=> window.open("https://drive.google.com/drive/u/1/folders/1tWqrQ7h-iHBQseytngHeW3xV2WQ4_vGf", "_blank")}>
+                    Google Drive</Button>
+                    &emsp;<Button style={{ fontSize: 20 }} variant="outlined" startIcon={<Avatar src={'https://cdn.mos.cms.futurecdn.net/SDDw7CnuoUGax6x9mTo7dd.jpg'}
+                    />}onClick={()=> window.open("https://vanderbiltmotorsports.slack.com/archives/C02KAUJKXTM", "_blank")}>
                     Slack</Button></div>
             </p>   
             
