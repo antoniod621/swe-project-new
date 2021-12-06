@@ -7,18 +7,6 @@ import * as React from 'react';
 import ReactDOM from 'react-dom';
 import Button from '@mui/material/Button';
 import Avatar from "@material-ui/core/Avatar";
-import Login from '../components/login.js';
-import LoginHooks from '../components/loginhooks.js';
-import Logout from '../components/logout.js'
-import { GoogleLogin } from "react-google-login";
-import { GoogleLogout } from "react-google-login";
-import GoogleBtn from '../components/googleaccount.js'
-
-
-const responseGoogle = response => {
-    console.log(response);
-};
-
 
 export default function Home() {
 
@@ -27,9 +15,7 @@ export default function Home() {
         <Layout home>
             <Head>
                 <title>{siteTitle}</title>
-                <meta name="google-signin-client_id" content="32462246798-aeohvbah1muk1jpm9do88ps1hl7rlnif.apps.googleusercontent.com" />
-                <div className="g-signin2" data-onsuccess="onSignIn"></div>
-                <script src="https://apis.google.com/js/platform.js" async defer></script>
+         
             </Head>
             <section className={utilStyles.heading} style={{textAlign: 'center', padding: "10px"
                 }}>
