@@ -1,28 +1,24 @@
 import React, { Component } from "react";
 import TodoItems from "./TodoItems";
 import TodoList from "./TodoList";
-import utilStyles from '../../styles/utils.module.css'
+import utilStyles from '../styles/utils.module.css'
 import AddTaskItems from "./AddTaskItems";
 
 
 
 class AddTask extends Component {
-
-  
     constructor(props) {
         super(props);
-
         
-        
-        this.state =  {
-            items: JSON.parse(localStorage.getItem('items')) || []
-          }
+        this.state = {
+            items: []
+          };
 
         this.addItem = this.addItem.bind(this);
         this.deleteItem = this.deleteItem.bind(this);
     }
 
-    
+
     addItem(e) {
         if (this._inputElement.value !== "") {
           var task = (this._inputElement.value)
@@ -37,13 +33,11 @@ class AddTask extends Component {
         </section>),
         key: Date.now()};
        
-          this.setState(
-              {items: this.state.items.concat(newItem)},
-              () => {
-                localStorage.setItem('items', JSON.stringify(this.state.items))
-              }
-            
-          );
+          this.setState((prevState) => {
+            return { 
+              items: prevState.items.concat(newItem) 
+            };
+          });
          
           this._inputElement.value = "";
         }
@@ -60,9 +54,6 @@ class AddTask extends Component {
       
        this.setState({
          items: filteredItems
-       },
-       () => {
-         localStorage.setItem('items', JSON.stringify(this.state.items))
        });
     }
 
