@@ -36,10 +36,10 @@ export default function Home() {
                     Electrical</Button></Link>
                 </p>
                 
-                <p style={{textAlign: 'center'
+                <p style={{textAlign: 'center',
                 }}>
                     <Link href="/posts/Suspension" passHref={true}><Button variant="outlined" startIcon={<Avatar src={'https://cdn-icons-png.flaticon.com/512/1711/1711879.png'} />}>
-                    Suspension</Button></Link>&nbsp;
+                    Suspension</Button></Link>
                 
                     <Link href="/posts/inventory" passHref={true}><Button variant="outlined" startIcon={<Avatar src={'https://www.pngfind.com/pngs/m/577-5777332_png-file-svg-inventory-icon-png-transparent-png.png'} />}>
                         Inventory</Button></Link>
