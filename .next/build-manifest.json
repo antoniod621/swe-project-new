@@ -34,6 +34,21 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/posts/Chassis.js"
+    ],
+    "/posts/Drive": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/posts/Drive.js"
+    ],
+    "/posts/Electrical": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/posts/Electrical.js"
+    ],
+    "/posts/Engine": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/posts/Engine.js"
     ]
   },
   "ampFirstPages": []
