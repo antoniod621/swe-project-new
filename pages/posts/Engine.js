@@ -17,6 +17,7 @@ import Paper from '@mui/material/Paper';
 import AddTask from "../../components/AddTask";
 import Divider from '@mui/material/Divider';
 import NavTabs from '../../components/NavTabs'
+import SimpleAccordionE from './SimpleAccordionE';
 
 
 export default function FirstPost() {
@@ -48,8 +49,7 @@ export default function FirstPost() {
 
             <div style={{paddingTop: '20px'
                 }}>
-            <iframe src="https://docs.google.com/document/d/1Lh5RlirXuJnNhnqbn1T6ImJx4FGJxACoLv1-yR65a_Y/edit?usp=sharing" style={{height: '700px', width: '90%'
-                }}></iframe>
+            <SimpleAccordionE link="https://docs.google.com/document/d/1Lh5RlirXuJnNhnqbn1T6ImJx4FGJxACoLv1-yR65a_Y/edit?usp=sharingrm=minimal"/>
             </div>
 
             <Divider style={{
