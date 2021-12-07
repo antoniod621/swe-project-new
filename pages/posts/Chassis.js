@@ -35,7 +35,7 @@ export default function FirstPost() {
                     <div style={{textAlign: 'center'}} >
                     <Button variant="outlined" startIcon={<Avatar src={'https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg'} 
                     />}onClick={()=> window.open("https://drive.google.com/drive/u/1/folders/1tWqrQ7h-iHBQseytngHeW3xV2WQ4_vGf", "_blank")}>
-                    Google Drive</Button>
+                    Google Drive</Button>&nbsp;
                     <Button variant="outlined" startIcon={<Avatar src={'https://cdn.mos.cms.futurecdn.net/SDDw7CnuoUGax6x9mTo7dd.jpg'}
                     />}onClick={()=> window.open("https://vanderbiltmotorsports.slack.com/archives/C02KAUJKXTM", "_blank")}>
                     Slack</Button></div>
