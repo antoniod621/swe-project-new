@@ -19,7 +19,7 @@ export default function Home() {
             </Head>
             <section className={utilStyles.heading} style={{textAlign: 'center', padding: "10px"
                 }}>
-                <p style={{textAlign: 'center', padding: "15px"
+                <p style={{textAlign: 'center'
                 }}>
                     <Link href="/posts/Engine" passHref={true}><Button style={{ fontSize: 25 }} variant="outlined" startIcon={<Avatar src={'https://cdn-icons-png.flaticon.com/512/2061/2061956.png'} />}>
                         Engine</Button></Link>&ensp;
@@ -27,7 +27,7 @@ export default function Home() {
                     <Link href="/posts/Chassis" passHref={true}><Button style={{ fontSize: 25 }} variant="outlined" startIcon={<Avatar src={'https://cdn3.iconfinder.com/data/icons/mechanic-car-repair-1/50/repair-36-512.png'} />}>
                         Chassis</Button></Link>
                 </p>
-                <p style={{textAlign: 'center', padding: "15px"
+                <p style={{textAlign: 'center'
                 }}>
                     <Link href="/posts/Drive" passHref={true}><Button style={{ fontSize: 25 }} variant="outlined" startIcon={<Avatar src={'https://static.thenounproject.com/png/57367-200.png'} />}>
                     Drive</Button></Link>&nbsp;
@@ -36,7 +36,7 @@ export default function Home() {
                     Electrical</Button></Link>
                 </p>
                 
-                <p style={{textAlign: 'center', padding: "15px"
+                <p style={{textAlign: 'center'
                 }}>
                     <Link href="/posts/Suspension" passHref={true}><Button style={{ fontSize: 25 }} variant="outlined" startIcon={<Avatar src={'https://cdn-icons-png.flaticon.com/512/1711/1711879.png'} />}>
                     Suspension</Button></Link>&emsp;
