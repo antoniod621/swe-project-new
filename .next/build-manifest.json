@@ -30,10 +30,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/posts/inventory": [
+    "/posts/Chassis": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/posts/inventory.js"
+      "static/chunks/pages/posts/Chassis.js"
+    ],
+    "/posts/Drive": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/posts/Drive.js"
+    ],
+    "/posts/Engine": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/posts/Engine.js"
     ]
   },
   "ampFirstPages": []
