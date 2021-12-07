@@ -23,14 +23,16 @@ function LinkTab(props) {
   
     return (
       <center>
-      <Box sx={{ width: '100%' }} style={{paddingLeft: '5%'
+      <Box sx={{ width: '100%' }} style={{alignSelf: "center"
     }}>
         <Tabs onChange={handleChange} aria-label="nav tabs example">
+          <ul>
+          <LinkTab label="Drive" href="/posts/Drive" />
           <LinkTab label="Engine" href="/posts/Engine" />
           <LinkTab label="Chassis" href="/posts/Chassis" />
-          <LinkTab label="Drive" href="/posts/Drive" />
           <LinkTab label="Electrical" href="/posts/Electrical" />
           <LinkTab label="Suspension" href="/posts/Suspension" />
+          </ul>
         </Tabs>
       </Box>
       </center>

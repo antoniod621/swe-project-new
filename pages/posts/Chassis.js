@@ -21,6 +21,8 @@ import NavTabs from '../../components/NavTabs'
 
 
 export default function FirstPost() {
+
+
     
     return (
         <Layout>
@@ -28,6 +30,7 @@ export default function FirstPost() {
                 }}>
                   
         <NavTabs/>
+
         <p>
             <h1 style={{color: "#b7ac74"
                 }}>Chassis Page</h1>
