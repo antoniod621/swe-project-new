@@ -52,7 +52,7 @@ export default function FirstPost() {
 
             <div style={{paddingTop: '20px'
                 }}>
-            <iframe src="https://docs.google.com/document/d/1nUqBDI9U-xpAdhA5ZCe58pc4XnT8z43bV6ZcajBKFTE/edit?usp=sharing" style={{height: '500px', width: '500px'
+            <iframe src="https://docs.google.com/document/d/1nUqBDI9U-xpAdhA5ZCe58pc4XnT8z43bV6ZcajBKFTE/edit?usp=sharing" style={{height: '700px', width: '90%'
                 }}></iframe>
             </div>
 
