@@ -6,6 +6,14 @@
     border-radius: 50px;
 }
 
+.childHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
 .header {
     display: flex;
     flex-direction: column;

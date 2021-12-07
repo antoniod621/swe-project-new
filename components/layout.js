@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import { AlignHorizontalCenter, AlignVerticalCenter, AlignVerticalTopRounded } from '@mui/icons-material'
 
 
 const name = 'Vanderbilt Motorsports Hub'
@@ -18,8 +19,8 @@ export default function Layout({ children, home }) {
                     content="Vanderbilt Motor Sports Website"
                 />
             </Head>
-            <header className={styles.header}>
                 {home ? (
+                    <header className={styles.header}>
                     <>
                         <Image
                             priority
@@ -32,31 +33,31 @@ export default function Layout({ children, home }) {
                         <center>
                         <h1 className={utilStyles.headingLg}>{name}</h1>
                         </center>
-                    </>
+                    </> </header>
                 ) : (
-                        <>
+                    <header className={styles.childHeader}>
+                        <p>
+                            <h2 className={styles.header}>
+                                <center>
                             <Link href="/">
-                                <a>
-                                    <Image
+                                    <Image 
                                         priority
                                         src="/images/profile.jpg"
                                         className={utilStyles.borderCircle}
-                                        height={108}
-                                        width={108}
+                                        height={80}
+                                        width={80}
                                         alt={name}
                                     />
-                                </a>
-                            </Link>
-                            <center>
-                            <h2 className={utilStyles.headingLg}>
+                            </Link>&emsp;
                                 <Link href="/">
                                     <a className={utilStyles.colorInherit}>{name}</a>
                                 </Link>
+                                </center>
                             </h2>
-                            </center>
-                        </>
+                            
+                        </p>
+                        </header>
                     )}
-            </header>
             <main>{children}</main>
             {!home && (
                 <div className={styles.backToHome}>
