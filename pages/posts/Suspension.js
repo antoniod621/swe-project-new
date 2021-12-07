@@ -57,7 +57,8 @@ export default function FirstPost() {
 
             <div style={{paddingTop: '20px'
                 }}>
-            <AddTask/>
+            <iframe src="https://docs.google.com/document/d/13e1c8b7_ZbTxfXJM91Ij6F3NPbQ1m6wujpdoFY5aB5c/edit?usp=sharing" style={{height: '500px', width: '500px'
+                }}></iframe>
             </div>
 
             <Divider style={{

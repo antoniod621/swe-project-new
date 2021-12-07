@@ -42,7 +42,7 @@ export default function FirstPost() {
             <p>
                     <div style={{textAlign: 'center'}} >
                     <Button variant="outlined" startIcon={<Avatar src={'https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg'} 
-                    />}onClick={()=> window.open("https://drive.google.com/drive/u/1/folders/1tWqrQ7h-iHBQseytngHeW3xV2WQ4_vGf", "_blank")}>
+                    />}onClick={()=> window.open("https://drive.google.com/drive/u/1/folders/15V5r3iCEPXCI7R02KgYGz2FFCis3di3S", "_blank")}>
                     Google Drive</Button>
                     &nbsp;<Button variant="outlined" startIcon={<Avatar src={'https://cdn.mos.cms.futurecdn.net/SDDw7CnuoUGax6x9mTo7dd.jpg'}
                     />}onClick={()=> window.open("https://vanderbiltmotorsports.slack.com/archives/C02KAUJKXTM", "_blank")}>
@@ -57,7 +57,8 @@ export default function FirstPost() {
 
             <div style={{paddingTop: '20px'
                 }}>
-            <AddTask/>
+            <iframe src="https://docs.google.com/document/d/1H8eKpY_FVNxGWGjc6SktXjPVzGvAzEjHeRh3WD3zLXE/edit?usp=sharing" style={{height: '500px', width: '500px'
+                }}></iframe>
             </div>
 
             <Divider style={{
