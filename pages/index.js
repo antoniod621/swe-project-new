@@ -22,7 +22,7 @@ export default function Home() {
                 <p style={{textAlign: 'center'
                 }}>
                     <Link href="/posts/Engine" passHref={true}><Button variant="outlined" startIcon={<Avatar src={'https://cdn-icons-png.flaticon.com/512/2061/2061956.png'} />}>
-                        Engine</Button></Link>&ensp;
+                        Engine</Button></Link>&nbsp;
 
                     <Link href="/posts/Chassis" passHref={true}><Button variant="outlined" startIcon={<Avatar src={'https://cdn3.iconfinder.com/data/icons/mechanic-car-repair-1/50/repair-36-512.png'} />}>
                         Chassis</Button></Link>
@@ -39,7 +39,7 @@ export default function Home() {
                 <p style={{textAlign: 'center'
                 }}>
                     <Link href="/posts/Suspension" passHref={true}><Button variant="outlined" startIcon={<Avatar src={'https://cdn-icons-png.flaticon.com/512/1711/1711879.png'} />}>
-                    Suspension</Button></Link>&emsp;
+                    Suspension</Button></Link>&nbsp;
                 
                     <Link href="/posts/inventory" passHref={true}><Button variant="outlined" startIcon={<Avatar src={'https://www.pngfind.com/pngs/m/577-5777332_png-file-svg-inventory-icon-png-transparent-png.png'} />}>
                         Inventory</Button></Link>
