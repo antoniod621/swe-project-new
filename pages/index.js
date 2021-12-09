@@ -7,6 +7,9 @@ import * as React from 'react';
 import ReactDOM from 'react-dom';
 import Button from '@mui/material/Button';
 import Avatar from "@material-ui/core/Avatar";
+import { GoogleLogin } from "react-google-login";
+import { GoogleLogout } from "react-google-login";
+import GoogleBtn from '../components/googleaccount.js'
 
 export default function Home() {
 
