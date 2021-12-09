@@ -15,6 +15,9 @@ export default function Home() {
         <Layout home>
             <Head>
                 <title>{siteTitle}</title>
+                <meta name="google-signin-client_id" content="32462246798-aeohvbah1muk1jpm9do88ps1hl7rlnif.apps.googleusercontent.com" />
+                <div className="g-signin2" data-onsuccess="onSignIn"></div>
+                <script src="https://apis.google.com/js/platform.js" async defer></script>
          
             </Head>
             <section className={utilStyles.heading} style={{textAlign: 'center', padding: "10px"
